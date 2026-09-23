@@ -35,7 +35,7 @@ $dirección = "Carrer Rambla, 3";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRes formas</title>
+  <title>Tres formas</title>
 </head>
 <body>
   <h1>Tres formas y el mismo resultado</h1>
