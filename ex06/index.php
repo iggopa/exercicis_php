@@ -1,5 +1,8 @@
 <?php
 
+# const IVA = "Hola"; Esta es la constante cambiada.
+# En este caso el valor de la constante IVA era de 0.21, ya que representa un porcentaje de un precio, pero al cambiarlo a una string
+# da error ya que esta constante es utilizada para poder calcular precios durante el proceso de la página. Por eso da error.
 const IVA = 0.21;
 const BOTIGA = "Tienda online guay";
 const MONEDA = "EUR";
