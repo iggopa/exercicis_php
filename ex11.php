@@ -44,10 +44,20 @@ echo "El substr de 21" . substr($cadena, 21);
 // explode: permite dividir una cadena según un carácter o patrón
 
 // Exercici 1: busca en php.net la función: str_word_count() y pon un ejemplo
+// Esta función sirve para contar la cantidad de palabras en una string
+$string = "Hola como vas";
+str_word_count($string);
 
 // Exercici 2: busca en php.net la función: levenshtein() y pon un ejemplo
+// Comprueba la diferencia de la cantidad de caracteres entre dos caracteres
+$string1 = "Hola";
+$string2 = "HolaHola";
+levenshtein($string1, $string2);
 
 // Exercici 3: busca qué es el operador ternario y pon un ejemplo
+// Es una forma de escribir un if, para comprobar un dato o variable
+$edad = 18;
+$verificar = $edad > 15 ? " Mayor" : "Menor";
 
 // Exercici 4: Explicar qué hace esta función: function funcioMultipleReturns($v1, $v2, $v3)
 
