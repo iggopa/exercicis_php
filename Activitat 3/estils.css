@@ -1,0 +1,133 @@
+/* --- Estils generals --- */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7f8;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* --- Formulari centrat --- */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* --- Fieldset --- */
+fieldset {
+  border: 2px solid #d0d7de;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  background: #fafbfc;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 .5rem;
+}
+
+/* --- Labels i inputs --- */
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: .3rem;
+}
+
+/* --- Botó --- */
+button {
+  width: 100%;
+  padding: .7rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* --- Títols de grup --- */
+.grup {
+  font-weight: bold;
+  max-width: 400px;
+  margin: 2rem auto 1rem auto;
+}
+
+/* --- Línies de radio i checkbox --- */
+.linia {
+  max-width: 400px;
+  margin: .5rem auto;
+  background: white;
+  padding: .7rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+/* --- Taula (si la necessites més endavant) --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th {
+  background: #0077cc;
+  color: white;
+  padding: .7rem;
+}
+
+td {
+  padding: .7rem;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) td {
+  background: #f4f7f7;
+}
+
+/* Contenedor del select */
+.select-container {
+  max-width: 400px;   /* mismo ancho que el formulario */
+  margin: 1rem auto;  /* centrado */
+}
+
+/* Select más pequeño */
+.select-container select {
+  width: 100%;        /* ocupa el ancho del contenedor, no de la pantalla */
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: white;
+}
