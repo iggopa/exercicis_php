@@ -1,0 +1,183 @@
+/* Reset bàsic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cos de la pàgina */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Títols */
+
+h1 {
+  color: #fff;
+  background-color: #005a9c;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #005a9c;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #005a9c;
+}
+
+h3 {
+  color: #0078d4;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Text */
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Capçalera i peu */
+
+header {
+  background-color: #005a9c;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+/* Targetes de producte */
+
+.targeta {
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.targeta:hover {
+  transform: translateY(-4px);
+}
+
+.targeta h3 {
+  margin-top: 0;
+}
+
+/* Graella de productes */
+
+.graella {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+/* Estat de l'estoc */
+
+.esgotat {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.ultimes-unitats {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.disponible {
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Taules */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+table th {
+  background-color: #005a9c;
+  color: white;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Resums */
+
+.resum {
+  background-color: white;
+  padding: 15px;
+  border-left: 5px solid #005a9c;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Missatges */
+
+.missatge {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Codi */
+
+pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+
+  .graella {
+      grid-template-columns: 1fr;
+  }
+}
