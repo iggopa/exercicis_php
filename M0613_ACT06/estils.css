@@ -1,0 +1,266 @@
+/* =========================
+   ESTILS GENERALS
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* =========================
+ CAPÇALERA
+========================= */
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+header p {
+  opacity: 0.9;
+}
+
+/* =========================
+ CONTINGUT PRINCIPAL
+========================= */
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #1e3a5f;
+}
+
+/* =========================
+ FORMULARI
+========================= */
+
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+fieldset {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #1e3a5f;
+  padding: 0 0.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #1e3a5f;
+  box-shadow: 0 0 5px rgba(30, 58, 95, 0.3);
+}
+
+/* =========================
+ GRUPS ESPECIALS
+========================= */
+
+.grup {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.linia {
+  display: block;
+  margin: 0.7rem 0;
+  font-weight: normal;
+}
+
+.linia input {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.select-container {
+  margin-bottom: 1rem;
+}
+
+/* =========================
+ BOTONS
+========================= */
+
+button,
+.tornar,
+a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+button {
+  background-color: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #294d7a;
+}
+
+.tornar,
+a[href] {
+  color: #1e3a5f;
+  font-weight: bold;
+}
+
+.tornar:hover,
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+ TAULA DE RESUM
+========================= */
+
+table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  width: 35%;
+  background-color: #1e3a5f;
+  color: white;
+  text-align: left;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ececec;
+}
+
+tr:nth-child(even) td {
+  background-color: #f7f9fc;
+}
+
+/* =========================
+ LLISTA D'ERRORS
+========================= */
+
+ul {
+  background-color: #ffe5e5;
+  border: 1px solid #e53935;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  color: #b71c1c;
+  margin-bottom: 0.4rem;
+}
+
+/* =========================
+ MISSATGE D'ÈXIT
+========================= */
+
+.ok {
+  background-color: #e8f5e9;
+  border: 1px solid #43a047;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ok p {
+  color: #2e7d32;
+}
+
+/* =========================
+ PEU DE PÀGINA
+========================= */
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #1e3a5f;
+  color: white;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}
+
+/* =========================
+ RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  form {
+      padding: 1.25rem;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+      display: block;
+      width: 100%;
+  }
+
+  th {
+      border-bottom: none;
+  }
+
+  td {
+      margin-bottom: 1rem;
+  }
+}
